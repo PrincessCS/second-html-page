@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS Class</title>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div id="logo-div">
+                <img src="images/DF official logo.svg" alt="logo-img">
+            </div>
+
+            <div id="nav-links">
+
+               
+                <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#projects">Projects</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+                <button type="button">Start a Project</button>
+               </nav>
+            </div>
+           
+        </div>
+       
+    </header>
+    <main>
+        <section id="home">
+            <div class="home-container">
+
+                <div class="background">
+                    <img src="images/Group 11.png" alt="backgound-img">
+
+                    <div class="background-overlay">
+                       
+                        <h1>Our Projects</h1>
+                    
+                        <p>We've worked on a range of projects and in a <br>
+                            variety of industries, allowing us to tailor our work <br>
+                            to our client's specific needs. Our capabilities include the following:</p>
+                    </div>
+
+                </div>
+               
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="projects-container">
+                <div class="projects-item">
+                    <img src="images/Rectangle 77.png" alt="kopa-app">
+                    <p>KopaApp </p>
+                    <p>Branding | App Development</p>
+                </div>
+
+                <div class="projects-item">
+                    <img src="images/Rectangle 104.png" alt="madam-benson-services">
+                    <p>Madam Benson services</p>
+                    <p>Branding</p>
+                </div>
+
+                <div class="projects-item">
+                    <img src="images/Rectangle 85.png" alt="dream-foundation">
+                    <p>Dream Foundation</p>
+                    <p>Branding | Website</p>
+                </div>
+
+                <div class="projects-item">
+                    <img src="images/Rectangle 84.png" alt="MOF">
+                    <p>MOF Collections</p>
+                    <p>Branding</p>
+                </div>
+
+                <div class="projects-item">
+                    <img src="images/Rectangle 85 (1).png" alt="chef-overfeeding">
+                    <p>Chef Overfeeding</p>
+                    <p>Branding</p>
+                </div>
+
+                <div class="projects-item">
+                    <img src="images/Rectangle 84 (1).png" alt="ble-hairz">
+                    <p>Ble'Hairz</p>
+                    <p>Branding</p>
+                </div>
+                <div class="projects-item">
+                    <img src="images/Rectangle 85 (2).png" alt="doris-helen">
+                    <p>DorisHelen</p>
+                    <p>Branding</p>
+                </div>
+
+                <div class="projects-item">
+                    <img src="images/Rectangle 84 (2).png" alt="desachem">
+                    <p>DeSachem</p>
+                    <p>Branding</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="project-container">
+                <h3>Start a Project</h3>
+                <hr>
+              
+                <form action="" class="project-form">
+                 
+                    <label for="project-name">
+                      
+                        <input type="text" id="project-name" placeholder="Project Name">
+                    </label>
+                   
+                    <select name="category" id="category-dropdown">
+                        <option value="1">Category </option>
+                        <option value="2">Category 2</option>
+                        <option value="3">Category 3</option>
+                        <option value="4">Category 4</option>
+                    </select>
+                    
+                    <label for="email">
+                        <input type="email" id="email" placeholder="Email">
+                    </label>
+
+                    <label for="name">
+                        <input type="text" id="name" placeholder="Client Name">
+                    </label>
+
+                    <label for="phone-number">
+                        <input type="tel" id="phone-number" placeholder="Phone">
+                    </label>
+                    <textarea name="notes" id="notes" rows="10" cols="50" placeholder="Notes"></textarea>
+
+                </form>
+                <button type="submit">Share</button>
+            </div>
+
+        </section>
+
+        <section id="contact">
+            <div class="contact-container">
+                <h4>Get In Touch</h4>
+                <hr>
+
+                <img src="images/DF official logo.svg" id="logo" alt="logo-img">
+
+                <p>To find out how we can help you. If it's easier <br>
+                you can email us</p>
+
+                <form action="">
+                    <input type="email" placeholder="Email Address">
+                    <button type="submit">Submit</button>
+                </form>
+
+                <div class="socials">
+                    <img src="images/Vector.png" class="social-icons" alt="Linkedin">
+                    <img src="images/Group 14.png" class="social-icons" alt="Instagram">
+                    <img src="images/Vector (1).png" class="social-icons" alt="Facebook">
+                </div>
+
+            </div>
+        </section>
+    
+</main>
+<footer>
+    <p>2024. This is just a clone. No Rights</p>
+</footer> 
+
+   
+   
+</body>
+</html>
